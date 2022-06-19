@@ -1,8 +1,9 @@
-![md-links](./images/catching%20mdlinks.png)
+<p align= "center"> ![md-links](./images/catching%20mdlinks.png)
 
 ***
 
 ## 1. Descripción
+
 <p align=justify>Esta es una interfaz de línea de comando que ayuda al usuario a verificar si los archivos Markdown (md) contienen links y si estos son funcionales. </p>
 
 ## 2. Instalación
@@ -24,6 +25,7 @@ $ md-links ./some/example.md --validate
 ./some/example.md http://algo.com/2/3/ ok 200 Link a algo
 ./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
 ./some/example.md http://google.com/ ok 301 Google
+
 ``` 
 Lo que se obtiene:
 
@@ -53,7 +55,13 @@ $ md-links ./some/example.md --stats --validate
 Total: 3
 Unique: 3
 Broken: 1
-``` 
+```
+```sh
+$ md-links ./some/example.md --validate --stats
+Total: 3
+Unique: 3
+Broken: 1
+```
 Lo que se obtiene: 
 
 ![](./images/stats%20validate.jpeg)
