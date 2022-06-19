@@ -1,4 +1,4 @@
-![md-links](./images/catching%20mdlinks.png)
+<p align= "center"> ![md-links](./images/catching%20mdlinks.png)
 
 ## Índice
 
@@ -12,7 +12,7 @@
 ***
 
 ## 1. Descripción
-Esta es una interfaz de línea de comando que ayuda al usuario a verificar si los archivos Markdown (md) contienen links y si estos son funcionales.
+<p align= "justify">Esta es una interfaz de línea de comando que ayuda al usuario a verificar si los archivos Markdown (md) contienen links y si estos son funcionales.</p>
 ## 2. Instalación
 
 Para instalar Cat-ching mdlinks, inserte en su terminal:
