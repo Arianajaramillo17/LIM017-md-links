@@ -1,4 +1,4 @@
-<p align= "center"> ![md-links](./images/catching%20mdlinks.png)
+ ![md-links](./images/catching%20mdlinks.png) 
 
 ***
 
