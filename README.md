@@ -32,7 +32,9 @@ $ md-links ./some/example.md --validate
 ./some/example.md http://algo.com/2/3/ ok 200 Link a algo
 ./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
 ./some/example.md http://google.com/ ok 301 Google
+
 Lo que se obtiene:
+
 ![](./images/validate.jpeg)
 
 🐱 --stats
@@ -44,7 +46,9 @@ Por ejemplo:
 $ md-links ./some/example.md --stats
 Total: 3
 Unique: 3
+
 Lo que se obtiene: 
+
 ![](./images/stats.jpeg)
 
 🐱 --stats y --validate 
@@ -57,19 +61,23 @@ $ md-links ./some/example.md --stats --validate
 Total: 3
 Unique: 3
 Broken: 1
+
 Lo que se obtiene: 
+
 ![](./images/stats%20validate.jpeg)
 
 🐱 --help
 
 Si pasamos la opción --help el output (salida) será un cuadro con los comandos disponibles.
 Lo que se obtiene:
+
 ![](./images/help.jpeg)
 
 🐱 --author
 
 Si pasamos la opción --author el output (salida) será una descripcion de la librería y el autor de esta.
 Lo que se obtiene:
+
 ![](./images/author.jpeg)
 
 ## 4. Herramientas implementadas
